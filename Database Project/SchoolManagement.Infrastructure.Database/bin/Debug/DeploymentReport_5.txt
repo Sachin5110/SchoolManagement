@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[Students]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Students].[MiddletName] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Students] (Default Constraint)
+       unnamed constraint on [dbo].[Students] (Default Constraint)
+       unnamed constraint on [dbo].[Students] (Foreign Key)
+     Recreate table
+       [dbo].[Students] (Table)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Students] (Foreign Key)
+
+The column [dbo].[Students].[MiddletName] is being dropped, data loss could occur.
+

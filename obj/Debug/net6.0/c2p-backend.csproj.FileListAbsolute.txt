@@ -1,0 +1,7 @@
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.csproj.AssemblyReference.cache
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p_backend.Properties.Resources.resources
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.csproj.GenerateResource.cache
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.AssemblyInfoInputs.cache
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.AssemblyInfo.cs
+D:\C2P Project\HL7-Intergration-Advanced-Entry\c2p-backend\obj\Debug\net6.0\c2p-backend.csproj.CoreCompileInputs.cache

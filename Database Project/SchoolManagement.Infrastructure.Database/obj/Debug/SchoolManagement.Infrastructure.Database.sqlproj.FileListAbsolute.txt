@@ -1,0 +1,10 @@
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\bin\Debug\SchoolManagement.Infrastructure.Database.dacpac
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\bin\Debug\SchoolManagement.Infrastructure.Database.dll
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\bin\Debug\SchoolManagement.Infrastructure.Database.pdb
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\SchoolManagement.Infrastructure.Database.sqlproj.AssemblyReference.cache
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\Model.xml
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\refactor.xml
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\postdeploy.sql
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\predeploy.sql
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\SchoolManagement.Infrastructure.Database.dll
+D:\School Management\school-managemnt-backend\Database Project\SchoolManagement.Infrastructure.Database\obj\Debug\SchoolManagement.Infrastructure.Database.pdb

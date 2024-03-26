@@ -1,0 +1,54 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[Roles]
+       [dbo].[Schools]
+       [dbo].[Students]
+       [dbo].[Teachers]
+       [dbo].[Users]
+     Clustered indexes that will be dropped
+       unnamed constraint on [dbo].[auditlog]
+       unnamed constraint on [dbo].[Jwt_Tokens]
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Students].[MiddleName] is being dropped, data loss could occur.
+       The column [dbo].[Teachers].[MiddleName] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Roles] (Default Constraint)
+       unnamed constraint on [dbo].[Students] (Default Constraint)
+       unnamed constraint on [dbo].[Students] (Default Constraint)
+       unnamed constraint on [dbo].[Teachers] (Default Constraint)
+       unnamed constraint on [dbo].[Teachers] (Default Constraint)
+       unnamed constraint on [dbo].[Users] (Default Constraint)
+       unnamed constraint on [dbo].[Users] (Default Constraint)
+       unnamed constraint on [dbo].[auditlog] (Default Constraint)
+       unnamed constraint on [dbo].[Jwt_Tokens] (Default Constraint)
+       unnamed constraint on [dbo].[Users] (Foreign Key)
+       unnamed constraint on [dbo].[GlobalAdmins] (Foreign Key)
+       unnamed constraint on [dbo].[Users] (Foreign Key)
+       unnamed constraint on [dbo].[Users] (Foreign Key)
+       unnamed constraint on [dbo].[GlobalAdmins] (Foreign Key)
+       unnamed constraint on [dbo].[auditlog] (Primary Key)
+       unnamed constraint on [dbo].[Jwt_Tokens] (Primary Key)
+     Recreate table
+       [dbo].[Roles] (Table)
+       [dbo].[Schools] (Table)
+       [dbo].[Students] (Table)
+       [dbo].[Teachers] (Table)
+       [dbo].[Users] (Table)
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Students] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Teachers] (Foreign Key)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Users] (Foreign Key)
+
+The column CreatedDate on table [dbo].[Roles] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column CreatedDate on table [dbo].[Schools] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Students].[MiddleName] is being dropped, data loss could occur.
+The column [dbo].[Teachers].[MiddleName] is being dropped, data loss could occur.
+The column CreatedBy on table [dbo].[Users] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+
